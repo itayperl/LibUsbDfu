@@ -24,7 +24,7 @@ namespace LibUsbDfu
 
         public override string ToString()
         {
-            return device.UsbRegistryInfo.DevicePath;
+            return device.DevicePath;
         }
 
         /// <summary>
